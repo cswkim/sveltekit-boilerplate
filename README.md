@@ -38,8 +38,8 @@ Now that the starter kit is set-up, boot up the dev server:
 ```zsh
 pnpm run dev
 
-# or start the server and open the app in a new browser tab
-pnpm run dev -- --open
+# have the app be accessible on your local network
+pnpm run dev -- --host 0.0.0.0
 ```
 
 ## Building
